@@ -11,7 +11,7 @@ function Header() {
   return (
     <header className="lg:mx-[73px] mx-4 mt-[40px] bg-white text-black flex flex-row justify-between gap-x-5 items-center">
       <div className="w-[137px]">
-        <img src="./Group 4438 (2).png" />
+        <img src="./ethLagosLogo.png" />
       </div>
       <div>
         <ul className=" hidden  lg:flex flex-row gap-x-5 items-center">
