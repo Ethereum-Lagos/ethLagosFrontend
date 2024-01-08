@@ -44,14 +44,14 @@ function Header() {
             &times;
           </p>
           <div className="pt-20 flex "></div>
-          <li className="cursor-pointer font-bold">Home</li>
-          <li className="cursor-pointer">About</li>
-          <li className="cursor-pointer">Speaker</li>
-          <li className="cursor-pointer">Schedules</li>
-          <li className="cursor-pointer">Partners</li>
-          <li className="cursor-pointer">Community</li>
-          <li className="cursor-pointer">FAQ</li>
-          <p className="cursor-pointer bg-black text-yellow rounded px-[48px] py-[18px] self-center w-56">
+          <li className="cursor-pointer my-4">Home</li>
+          <li className="cursor-pointer my-4">About</li>
+          <li className="cursor-pointer my-4">Speaker</li>
+          <li className="cursor-pointer my-4">Schedules</li>
+          <li className="cursor-pointer my-4">Partners</li>
+          <li className="cursor-pointer my-4">Community</li>
+          <li className="cursor-pointer my-4">FAQ</li>
+          <p className="cursor-pointer my-4 bg-black text-yellow rounded px-[48px] py-[18px] self-center w-56">
             Register Now
           </p>
         </div>

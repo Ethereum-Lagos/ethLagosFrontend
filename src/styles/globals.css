@@ -8,6 +8,9 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+body {
+  color: #0A0E00;
+}
 
 .sidenav {
   height: 100%;
@@ -15,7 +18,7 @@
   width: 0;
   /* 0 width - change this with JavaScript */
   position: fixed;
-  list-style:none ;
+  list-style: none;
   /* Stay in place */
   z-index: 100;
   /* Stay on top */
