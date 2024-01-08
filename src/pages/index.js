@@ -4,6 +4,7 @@ import { Fragment } from "react";
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import dynamic from 'next/dynamic';
+import AboutEthLagos from '@/components/AboutEthLagos';
 
 const Countdown = dynamic(() => import('@/components/Countdown'), { ssr: false });
 
@@ -15,6 +16,7 @@ export default function Home() {
        <title>ETH Lagos</title>
   <Header/>
  <Countdown/>
+ <AboutEthLagos/>
  <Footer/>
 
     </Fragment>

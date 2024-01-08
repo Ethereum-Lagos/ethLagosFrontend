@@ -30,7 +30,7 @@ function Countdown() {
   }, []);
 
   return (
-    <div className="lg:px-[73px] px-4 mt-[40px] py-[73px]  flex justify-between flex-col lg:grid grid-rows-1 grid-cols-2">
+    <div className="lg:px-[73px] px-4 mt-[40px] py-[73px] gap-y-12  flex justify-between flex-col lg:grid grid-rows-1 grid-cols-2">
       <div>
         <p className="text-[65px] font-bold">Ethereum conference</p>
         <p className="text-[65px] font-bold">and hackathon</p>
@@ -41,19 +41,19 @@ function Countdown() {
         </p>
       </div>
 
-      <div className="flex flex-col  bg-yellow px-4 pt-4 rounded justify-center  ">
+      <div className="flex flex-col  bg-yellow px-4 pt-4 rounded justify-center lg:self-center ">
         <div className="bg-black text-yellow flex justify-between items-center lg:p-20 p-5">
           <div className="flex flex-col items-center justify-center">
             <div className="">{timeLeft.weeks}</div>
             <p className="text-sm my-2">Weeks</p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center ">
             <div className="">{timeLeft.days}</div>
-            <p className="">Days</p>
+            <p className="my-2">Days</p>
           </div>
           <div className="flex flex-col items-center">
             <div className="">{timeLeft.hours}</div>
-            <p className="">Hrs</p>
+            <p className="my-2">Hrs</p>
           </div>
           <div className="flex flex-col items-center">
             <div className="">{timeLeft.minutes}</div>
