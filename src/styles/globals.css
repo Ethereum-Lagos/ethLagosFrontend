@@ -36,6 +36,8 @@ body {
   /* 0.5 second transition effect to slide in the sidenav */
 }
 
+
+
 @media (max-width: 500px) {
   .sidenav {
     padding-top: 30px;
@@ -47,4 +49,9 @@ body {
   .sidenav {
     padding-top: 15px;
   }
+}
+
+
+.end {
+  justify-self: self-end;
 }

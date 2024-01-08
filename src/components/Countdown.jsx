@@ -48,7 +48,7 @@ function Countdown() {
             <div className="">{timeLeft.weeks}</div>
             <p className="text-sm">Weeks</p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center ">
             <div className="">{timeLeft.days}</div>
             <p className="text-sm ">Days</p>
           </div>
