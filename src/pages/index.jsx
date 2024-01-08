@@ -101,7 +101,7 @@ export default function Home() {
           <p className='font-bold text-3xl'>FAQ</p>
           <div className='lg:p-8 p-4 mt-8 bg-[#0A0E00] text-[#FFE20A] border-8 border-[#FFE20A]'>
             {accordionData.map(({ title, content }) => (
-              <Accordion title={title} content={content} />
+              <Accordion key={title} title={title} content={content} />
             ))}
           </div>
         </div>
