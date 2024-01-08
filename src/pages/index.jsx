@@ -1,6 +1,5 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import { Fragment } from "react";
+
+import { Fragment, useState } from "react";
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import dynamic from 'next/dynamic';
@@ -11,6 +10,7 @@ const Countdown = dynamic(() => import('@/components/Countdown'), { ssr: false }
 
 
 export default function Home() {
+  const [active, setActive] = useState(0)
   const accordionData = [
     {
       title: 'Can I be a speaker at ETHLagos ?',
@@ -60,6 +60,50 @@ export default function Home() {
             <SpeakerCard />
             <SpeakerCard />
             <SpeakerCard />
+          </div>
+        </div>
+      </section>
+
+      <section className='lg:p-20 p-4 sm:my-10'>
+        <div>
+          <p className='font-bold text-lg'>Event</p>
+          <p className='font-bold text-3xl'>Schedule</p>
+          <div className='lg:w-[70%] mx-auto bg-[#FFE20A] rounded-md sm:flex-wrap flex p-2 my-4'>
+            <div onClick={() => setActive(0)} className={active === 0 ? 'cursor-pointer w-1/2 text-center text-[#FFE20A] bg-[#0A0E00] p-2' : 'border cursor-pointer w-1/2 text-center border-[#0A0E00] p-2'}>June 4, Tuesday</div>
+            <div onClick={() => setActive(1)} className={active === 1 ? 'cursor-pointer w-1/2 text-center text-[#FFE20A] bg-[#0A0E00] p-2' : 'border cursor-pointer w-1/2 text-center border-[#0A0E00] p-2'}>June 5, Wednessday</div>
+            <div onClick={() => setActive(2)} className={active === 2 ? 'cursor-pointer w-1/2 text-center text-[#FFE20A] bg-[#0A0E00] p-2' : 'border cursor-pointer w-1/2 text-center border-[#0A0E00] p-2'}>June 6, Thursday</div>
+            <div onClick={() => setActive(3)} className={active === 3 ? 'cursor-pointer w-1/2 text-center text-[#FFE20A] bg-[#0A0E00] p-2' : 'border cursor-pointer w-1/2 text-center border-[#0A0E00] p-2'}>June 7, Friday</div>
+          </div>
+        </div>
+        <div className='lg:p-8 p-4 mt-8 bg-[#0A0E00] lg:mx-8 text-[#FFE20A] border-8 border-[#FFE20A]'>
+          <div className="flex py-2 border-b sm:text-sm border-[#FFE20A] justify-between">
+            <div className="flex">
+              <div className="lg:mr-10 mr-2">
+                <p className="lg:text-xl">10:00 am</p>
+                <p className="text-sm italic my-2">Starts</p>
+              </div>
+              <div>
+                <p className="lg:text-xl">Registration</p>
+                <div className="flex my-2"> <img className="w-4 h-4" src="/images/icons/map-marker.png" alt="" /><p className="text-sm italic">Venue</p></div>
+              </div>
+            </div>
+            <img className="h-16" src="/images/register.png" alt="" />
+          </div>
+          <div className="flex py-2 border-b border-[#FFE20A] justify-between">
+            <div className="flex">
+              <div className="lg:mr-10 mr-2">
+                <p className="lg:text-xl">10:55 am</p>
+                <p className="text-sm italic my-2">5 mins</p>
+              </div>
+              <div>
+                <p className="lg:text-xl">Opening</p>
+                <div className="lg:flex">
+                  <div className="flex my-2"> <img className="w-4 h-4" src="/images/icons/map-marker.png" alt="" /><p className="text-sm italic">Venue</p></div>
+                  <div className="flex my-2 lg:ml-2"> <img className="w-4 h-4" src="/images/icons/microphone.png" alt="" /><p className="text-sm italic">Collins Alfred</p></div>
+                </div>
+              </div>
+            </div>
+            <img className="h-16 sm:my-auto" src="/images/schdule.png" alt="" />
           </div>
         </div>
       </section>
