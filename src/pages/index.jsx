@@ -51,7 +51,7 @@ export default function Home() {
           <img className='mt-16' src="/images/about.png" alt="" />
         </div>
       </div>
-      <section className='lg:p-20 p-4'>
+      {/* <section className='lg:p-20 p-4'>
         <div>
           <p className='font-bold text-lg'>Meet our</p>
           <p className='font-bold text-3xl'>Speakers</p>
@@ -62,9 +62,9 @@ export default function Home() {
             <SpeakerCard />
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className='lg:p-20 p-4 sm:my-10'>
+      {/* <section className='lg:p-20 p-4 sm:my-10'>
         <div>
           <p className='font-bold text-lg'>Event</p>
           <p className='font-bold text-3xl'>Schedule</p>
@@ -106,7 +106,8 @@ export default function Home() {
             <img className="h-16 sm:my-auto" src="/images/schdule.png" alt="" />
           </div>
         </div>
-      </section>
+      </section> */}
+
       <section className='lg:p-20 p-4 sm:my-10'>
         <div>
           <p className='font-bold text-lg'>Get to know</p>
