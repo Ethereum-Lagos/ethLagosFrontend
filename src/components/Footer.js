@@ -34,34 +34,34 @@ function footer() {
       </div>
       <div className=" flex flex-col gap-y-3">
         <p className="font-bold text-[22px]">Socials</p>
-        <div>
-          <p>x(twitter)</p>
-          <p>@EthereumNigeria</p>
-        </div>
+        // <div>
+        //   <p>x(twitter)</p>
+        //   <p>@EthereumNigeria</p>
+        // </div>
 
-        <div>
-          <p>Telegram</p>
-          <p>@EthereumNigeria</p>
-        </div>
+        // <div>
+        //   <p>Telegram</p>
+        //   <p>@EthereumNigeria</p>
+        // </div>
 
-        <div>
-          <p>WhatasApp</p>
-          <p>@EthereumNigeria</p>
-        </div>
+        // <div>
+        //   <p>WhatasApp</p>
+        //   <p>@EthereumNigeria</p>
+        // </div>
 
-        <div>
-          <p>Youtube</p>
-          <p>@EthereumNigeria</p>
-        </div>
+        // <div>
+        //   <p>Youtube</p>
+        //   <p>@EthereumNigeria</p>
+        // </div>
 
-        <div>
-          <p>Meduim</p>
-          <p>@EthereumNigeria</p>
-        </div>
-        <div>
-        <p>LinkedIN</p>
-        <p>@EthereumNigeria</p>
-      </div>
+      //   <div>
+      //     <p>Meduim</p>
+      //     <p>@EthereumNigeria</p>
+      //   </div>
+      //   <div>
+      //   <p>LinkedIN</p>
+      //   <p>@EthereumNigeria</p>
+      // </div>
       </div>
 </div>
      <p className="lg:self-center mt-[50px]">Copyright 2024 ETHLagos, All rights reserved.</p>
