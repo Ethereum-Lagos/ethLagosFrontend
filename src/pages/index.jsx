@@ -18,7 +18,7 @@ export default function Home() {
     },
     {
       title: 'Need an invitation letter for your visa?',
-      content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam`
+      content: `Send a request to info@ethereumnigeria.org`
     },
     {
       title: 'What are the ticket price for ETHLagos?',
@@ -26,7 +26,7 @@ export default function Home() {
     },
     {
       title: 'What if I have more questions?',
-      content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto`
+      content: `Send us an email to info@ethereumnigeria.org`
     }
   ];
   return (
