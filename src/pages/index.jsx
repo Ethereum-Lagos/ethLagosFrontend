@@ -22,7 +22,7 @@ export default function Home() {
     },
     {
       title: 'What are the ticket price for ETHLagos?',
-      content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto`
+      content: `Two tickets category are made available, Vip & Free Tickets`
     },
     {
       title: 'What if I have more questions?',
