@@ -32,9 +32,9 @@ function footer() {
         <p>ETHGlobal</p>
         <p>Ethereum Foundation</p>
       </div>
-      <div className=" flex flex-col gap-y-3">
-        <p className="font-bold text-[22px]">Socials</p>
-        // <div>
+      // <div className=" flex flex-col gap-y-3">
+      //   <p className="font-bold text-[22px]">Socials</p>
+      //   // <div>
         //   <p>x(twitter)</p>
         //   <p>@EthereumNigeria</p>
         // </div>
