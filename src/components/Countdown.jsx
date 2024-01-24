@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 function Countdown() {
   //timer logic
   const calculateTimeLeft = () => {
-    const eventDate = new Date("2024-06-04T11:00:00Z"); // Set your event date and time here
+    const eventDate = new Date("2024-06-27T11:00:00Z"); // Set your event date and time here
     const now = new Date();
     const difference = eventDate - now;
 
@@ -36,7 +36,7 @@ function Countdown() {
           and hackathon
           in the city of Lagos
         </p>
-        <p className="italic">june 4-7, 2024</p>
+        <p className="italic">June 27<sup>th</sup>-29<sup>th</sup>, 2024</p>
         <p className="cursor-pointer text-base bg-black text-yellow rounded px-[48px] py-[18px] w-48 mt-10 text-center">
           Register Now
         </p>
